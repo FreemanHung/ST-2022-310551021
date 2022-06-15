@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="PriorityQueueTest" time="0.086" tests="8" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="MS950"/>
+    <property name="java.class.path" value="G:\碩士課程\軟體測試\HW\HW3\target\test-classes;G:\碩士課程\軟體測試\HW\HW3\target\classes;C:\Users\phlin\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\phlin\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\phlin\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\phlin\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\phlin\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\phlin\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\phlin\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.2\junit-jupiter-params-5.8.2.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Taipei"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="TW"/>
+    <property name="sun.boot.library.path" value="C:\Users\phlin\.jdks\temurin-11.0.14.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\phlin\AppData\Local\Temp\surefire1246609000421058852\surefirebooter5987837961510283338.jar C:\Users\phlin\AppData\Local\Temp\surefire1246609000421058852 2022-03-16T16-56-16_067-jvmRun1 surefire12394742875410617032tmp surefire_016607119336205930951tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="G:\碩士課程\軟體測試\HW\HW3\target\test-classes;G:\碩士課程\軟體測試\HW\HW3\target\classes;C:\Users\phlin\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\phlin\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\phlin\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\phlin\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\phlin\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\phlin\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\phlin\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.2\junit-jupiter-params-5.8.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\phlin"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-02-08"/>
+    <property name="java.home" value="C:\Users\phlin\.jdks\temurin-11.0.14.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="G:\碩士課程\軟體測試\HW\HW3"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\phlin\AppData\Local\Temp\surefire1246609000421058852\surefirebooter5987837961510283338.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.14.1+1"/>
+    <property name="user.name" value="phlin"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="MS950"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-11.0.14.1+1"/>
+    <property name="localRepository" value="C:\Users\phlin\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\phlin\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2021.3.2"/>
+    <property name="java.version" value="11.0.14.1"/>
+    <property name="user.dir" value="G:\碩士課程\軟體測試\HW\HW3"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Users\phlin\.jdks\temurin-11.0.14.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Users\phlin\.cargo\bin;C:\Users\phlin\AppData\Local\Microsoft\WindowsApps;C:\cygwin64\bin;C:\cygwin64\sbin;C:\cygwin64\usr\sbin;C:\Users\phlin\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="11.0.14.1+1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="assertThrowClassCastExceptionWhenAddBadObjs" classname="PriorityQueueTest" time="0.019"/>
+  <testcase name="assertThrowArrayStoreException" classname="PriorityQueueTest" time="0"/>
+  <testcase name="testPriorityQueuePoll{Object[], Object[]}[1]" classname="PriorityQueueTest" time="0.026">
+    <failure message="array contents differ at index [4], expected: &lt;99&gt; but was: &lt;9&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: array contents differ at index [4], expected: <99> but was: <9>
+	at PriorityQueueTest.testPriorityQueuePoll(PriorityQueueTest.java:44)
+]]></failure>
+  </testcase>
+  <testcase name="testPriorityQueuePoll{Object[], Object[]}[2]" classname="PriorityQueueTest" time="0"/>
+  <testcase name="testPriorityQueuePoll{Object[], Object[]}[3]" classname="PriorityQueueTest" time="0.001"/>
+  <testcase name="testPriorityQueuePoll{Object[], Object[]}[4]" classname="PriorityQueueTest" time="0.001"/>
+  <testcase name="testPriorityQueuePoll{Object[], Object[]}[5]" classname="PriorityQueueTest" time="0"/>
+  <testcase name="assertThrowNullPointerExceptionWhenOfferIsNull" classname="PriorityQueueTest" time="0.001"/>
+</testsuite>

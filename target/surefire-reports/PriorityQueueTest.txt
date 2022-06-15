@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: PriorityQueueTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.086 s <<< FAILURE! - in PriorityQueueTest
+testPriorityQueuePoll{Object[], Object[]}[1]  Time elapsed: 0.026 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: array contents differ at index [4], expected: <99> but was: <9>
+	at PriorityQueueTest.testPriorityQueuePoll(PriorityQueueTest.java:44)
+
