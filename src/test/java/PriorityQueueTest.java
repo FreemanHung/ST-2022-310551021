@@ -17,7 +17,7 @@ class PriorityQueueTest {
 
     static Stream<Arguments> stProvider() {
         return Stream.of(
-                Arguments.of(new Object[]{9, 4, 8, 7, 0}, new Object[]{0, 4, 7, 8, 9}),
+                Arguments.of(new Object[]{9, 4, 8, 7, 0}, new Object[]{4, 0, 7, 8, 9}),
                 Arguments.of(new Object[]{-6, -9, -8, -7, 0}, new Object[]{-9, -8, -7, -6, 0}),
                 Arguments.of(new Object[]{"-4", "-1", "-3", "-2", "0"}, new Object[]{"-1", "-2", "-3", "-4", "0"}),
                 Arguments.of(new Object[]{"d", "a", "c", "e", "b"}, new Object[]{"a", "b", "c", "d", "e"}),
