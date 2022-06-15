@@ -1,5 +1,5 @@
 # ST-2022-310551021
-![Build Workflow](https://github.com/FreemanHung/ST-2022-310551021/actions/workflows/build.yml/badge.svg?event=push)](https://github.com/FreemanHung/ST-2022-310551021/actions/workflows/build.yml)
+![Build Workflow](https://github.com/FreemanHung/ST-2022-310551021/actions/workflows/build.yml/badge.svg?event=push)(https://github.com/FreemanHung/ST-2022-310551021/actions/workflows/build.yml)
 
 
 ## result
